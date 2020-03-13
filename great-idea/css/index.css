@@ -169,28 +169,32 @@ p{
 footer div{
 	text-align:center;
 }
-/*Services web page*/
+/*!!!!Attention Services web page starts here*/
 body{
-	border:40px solid white;
+	border:60px solid white;
 }
 .very-top{
 	display:flex;
-	flex-direction: row;
-  justify-content: space-evenly;
-  
+	justify-content: space-between;
   /*background-color: lightpink;*/
   margin-bottom:40px;
+}
+.services-header-img{
+	display:block;
+	width:100%;
 }
 .services{
 	display:flex;
 	margin-bottom:20px;
 	flex-direction:column;
 	margin-bottom:40px;
+	line-height: 1.5;
 }
 .long-section{
 	display:flex;
 	flex-wrap:wrap;
 	justify-content: space-between;
+	margin-top:20px;
 }
 .long-section div{
 	border:1px solid black;
@@ -204,11 +208,25 @@ body{
 .long-section h2{
 	font-size: 40px;
 }
-.about-us{
-	display:flex;
-	flex-direction:column;
-	justify-content: space-around;
+.long-section button{
+   margin-top:40px;
 }
 footer{
+	padding:4%;
+	/*width:49%;*/
+	line-height: 2;
+	display:flex;
+	flex-wrap: flex;
+	justify-content: space-between;
+}
+ul{
+	list-style-type: square;
+}
+.about-us{
+	flex:0 45%;
+	/*flex-direction:column;*/
+}
+
+.copyright{
 	text-align:center;
 }
